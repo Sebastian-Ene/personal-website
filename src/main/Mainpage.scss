@@ -1,0 +1,36 @@
+.herocontainer {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  background-color: bisque;
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+  display: block;
+}
+
+.hero {
+  text-align: center;
+  display: block;
+  width: 100%;
+}
+
+.mainContainer {
+  margin: 0 15%;
+  margin-top: 60vh;
+  text-align: center;
+}
+
+.hero-content {
+  color: whitesmoke;
+  margin-bottom: 30vh;
+  h1 {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 0.9em;
+  }
+}
+.skills-container {
+  margin-top: 20vh;
+}
