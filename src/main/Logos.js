@@ -12,23 +12,38 @@ import './Logos.scss';
 
 export default function Logos() {
   const skillsList = [
-    { img: Node_JS },
-    { img: angular },
-    { img: aws },
-    { img: Cpp },
-    { img: javaScript },
-    { img: ReactLogo },
-    { img: Sass },
-    { img: mongodb },
-    { img: Python },
+    { img: Node_JS, col: 1 },
+    { img: angular, col: 2 },
+    { img: ReactLogo, col: 2 },
+    { img: Python, col: 3 },
+    { img: javaScript, col: 3 },
+    { img: Cpp, col: 3 },
+    { img: aws, col: 4 },
+    { img: mongodb, col: 4 },
+    { img: Sass, col: 5 },
   ];
-  return (
-    <div>
-      <div class="skillsContainer">
+
+  function coloane(i) {
+    return (
+      <div className="columns">
         {skillsList.map((skill) => {
-          return <img class="logo" height="100" src={skill.img} alt=""></img>;
+          if (skill.col === i) {
+            return (
+              <img className="logo" height="100" src={skill.img} alt=""></img>
+            );
+          }
         })}
       </div>
-    </div>
+    );
+  }
+
+  return (
+    <>
+      {coloane(1)}
+      {coloane(2)}
+      {coloane(3)}
+      {coloane(4)}
+      {coloane(5)}
+    </>
   );
 }

@@ -1,36 +1,74 @@
-.herocontainer {
-  z-index: -2;
-  position: absolute;
-  top: 0;
-  background-color: bisque;
-  width: 100%;
-  max-height: 100vh;
-  overflow: hidden;
-  display: block;
+body {
+  background-color: rgb(234, 242, 245);
 }
-
-.hero {
-  text-align: center;
-  display: block;
-  width: 100%;
+.herocontainer {
+  border: none;
+  .image-container {
+    border: none;
+    z-index: -2;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    max-height: 100vh;
+    overflow: hidden;
+    display: block;
+    .grad {
+      position: absolute;
+      bottom: 0px;
+      border: none;
+      height: 20vw;
+      width: 100%;
+      background: linear-gradient(
+        0deg,
+        rgb(234, 242, 245),
+        rgba(234, 242, 245, 0.3),
+        rgba(234, 242, 245, 0)
+      );
+    }
+    img {
+      position: relative;
+      top: -20vh;
+      text-align: center;
+      display: block;
+      width: 100%;
+      @media (max-width: 850px) {
+        top: 0;
+      }
+    }
+  }
+  .hero-content {
+    color: rgb(234, 242, 245);
+    text-align: center;
+    h1 {
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+      font-size: 5vw;
+      margin-top: 45vh;
+      margin-bottom: 0;
+    }
+    button {
+      font-weight: 900;
+      color: white;
+      margin-top: 3em;
+      font-size: 1.5vw;
+      padding: 1em;
+      background-color: rgba(175, 211, 241, 0.733);
+      border: none;
+      border-radius: 35px;
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: black;
+    }
+  }
 }
 
 .mainContainer {
   margin: 0 15%;
-  margin-top: 60vh;
+  margin-top: 50vh;
   text-align: center;
 }
 
-.hero-content {
-  color: whitesmoke;
-  margin-bottom: 30vh;
-  h1 {
-    font-size: 3em;
-  }
-  h2 {
-    font-size: 0.9em;
-  }
-}
 .skills-container {
-  margin-top: 20vh;
+  h2 {
+    font-size: 4vw;
+  }
 }
