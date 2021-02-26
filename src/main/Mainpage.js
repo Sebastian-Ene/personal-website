@@ -32,11 +32,11 @@ export default function Mainpage() {
             </div>
           </div>
           <Projects></Projects>
-          <h2>
+          <div className="footer">
             Do you like what you see? Do you want to meet the man behind this
             site? Contact{' '}
             <a href="https://www.linkedin.com/in/sebastian-ene/">me</a>
-          </h2>
+          </div>
         </div>
       </div>
     </>

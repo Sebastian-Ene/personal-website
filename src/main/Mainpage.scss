@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(234, 245, 234);
+  background-color: rgb(238, 247, 238);
 }
 .herocontainer {
   border: none;
@@ -75,4 +75,12 @@ body {
     font-size: 4vw;
     filter: drop-shadow(0 0 1vw rgba(26, 26, 26, 0.808));
   }
+}
+
+.footer {
+  font-size: 2em;
+  font-weight: 600;
+  background-color: black;
+  color: rgb(238, 247, 238);
+  padding: 0.5em;
 }
