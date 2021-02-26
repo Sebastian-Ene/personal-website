@@ -1,5 +1,5 @@
 import React from 'react';
-import heropic from '../assets/heropic.jpeg';
+import heropic from '../assets/Heropic.jpg';
 import Logos from './Logos';
 import Projects from './Projects';
 import './Mainpage.scss';

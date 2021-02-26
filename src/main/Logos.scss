@@ -1,10 +1,11 @@
 .logo {
   width: 30%;
   margin: 0 auto 2em auto;
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(213, 231, 213);
   border-radius: 15px;
   padding: 1em 4em;
   height: auto;
+  filter: drop-shadow(0 0 0.7vw rgba(26, 26, 26, 0.301));
 }
 
 .skill-img-container {
