@@ -1,7 +1,7 @@
 import React from 'react';
 import NYA from '../assets/Nya.png';
 import WeatherNow from '../assets/WeatherNow.png';
-import './Projects.scss';
+import './Projects1.scss';
 
 export default function Projects() {
   const projectList = [
@@ -22,27 +22,20 @@ export default function Projects() {
   ];
 
   return (
-    <div>
-      <h1> Latest Projects </h1>
+    <>
+      <h2 className="projects-title"> Latest Projects </h2>
       {projectList.map((project) => {
         return (
           <a href={project.link} target="_blank">
-            <div className="project" style={{ backgroundColor: project.color }}>
-              <p
-                style={{ WebkitTextStroke: '3px ' + project.textColor }}
-                className="empty-text"
-              >
-                {project.title}
-              </p>
-              <p style={{ color: project.textColor }} className="filled-text">
-                {project.title}
-              </p>
-              <img src={project.image} alt=""></img>
+            <div className="project">
+              <p className="empty-text">{project.title}</p>
+              <p className="filled-text">{project.title}</p>
               <img className="animatedImage" src={project.image} alt=""></img>
+              <img src={project.image} alt=""></img>
             </div>
           </a>
         );
       })}
-    </div>
+    </>
   );
 }

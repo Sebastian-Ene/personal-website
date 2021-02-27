@@ -1,66 +1,64 @@
 body {
   background-color: rgb(238, 247, 238);
 }
-.herocontainer {
+
+.hero-container {
   border: none;
-  .image-container {
-    border: none;
-    z-index: -2;
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  max-height: 100vh;
+  overflow: hidden;
+  display: block;
+  .grad {
     position: absolute;
-    top: 0;
+    bottom: 0px;
+    border: none;
+    height: 20vw;
     width: 100%;
-    max-height: 100vh;
-    overflow: hidden;
+    background: linear-gradient(
+      0deg,
+      rgb(234, 245, 234),
+      rgba(234, 242, 245, 0.3),
+      rgba(234, 242, 245, 0)
+    );
+  }
+  img {
+    position: relative;
+    top: -20vh;
+    text-align: center;
     display: block;
-    .grad {
-      position: absolute;
-      bottom: 0px;
-      border: none;
-      height: 20vw;
-      width: 100%;
-      background: linear-gradient(
-        0deg,
-        rgb(234, 245, 234),
-        rgba(234, 242, 245, 0.3),
-        rgba(234, 242, 245, 0)
-      );
-    }
-    img {
-      position: relative;
-      top: -20vh;
-      text-align: center;
-      display: block;
-      width: 100%;
-      @media (max-width: 850px) {
-        top: 0;
-      }
+    width: 100%;
+    @media (max-width: 850px) {
+      top: 0;
     }
   }
-  .hero-content {
-    color: rgb(234, 242, 245);
-    text-align: center;
-    h1 {
-      font-size: 5vw;
-      margin-top: 45vh;
-      margin-bottom: 0;
-    }
-    button {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-        Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-weight: 700;
-      color: rgb(231, 231, 231);
-      margin-top: 3em;
-      font-size: 1.5vw;
-      padding: 0.7em 1.3em;
-      background: rgb(162, 162, 162);
-      background: linear-gradient(
-        -45deg,
-        rgba(162, 162, 162, 0.6672649479713761) 27%,
-        rgba(24, 24, 24, 0.35858147458202032) 73%
-      );
-      border: none;
-      border-radius: 35px;
-    }
+}
+.hero-content {
+  color: rgb(234, 242, 245);
+  text-align: center;
+  h1 {
+    font-size: 5vw;
+    margin-top: 45vh;
+    margin-bottom: 0;
+  }
+  button {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+      Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: rgb(231, 231, 231);
+    margin-top: 3em;
+    font-size: 1.5vw;
+    padding: 0.7em 1.3em;
+    background: rgb(162, 162, 162);
+    background: linear-gradient(
+      -45deg,
+      rgba(162, 162, 162, 0.6672649479713761) 27%,
+      rgba(24, 24, 24, 0.35858147458202032) 73%
+    );
+    border: none;
+    border-radius: 35px;
   }
 }
 

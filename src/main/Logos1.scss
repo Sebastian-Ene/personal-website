@@ -1,0 +1,25 @@
+.skills-container {
+  h2 {
+    font-size: 2em;
+    filter: drop-shadow(0 0 1vw rgba(26, 26, 26, 0.808));
+  }
+  .skill-img-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .columns {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .logo {
+    width: 70%;
+    margin: 0 auto 2em auto;
+    background-color: rgb(213, 231, 213);
+    border-radius: 10px;
+    padding: 0.5em 10%;
+    filter: drop-shadow(0 0 0.7vw rgba(26, 26, 26, 0.301));
+  }
+}
