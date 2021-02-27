@@ -3,6 +3,11 @@
   background-color: rgb(238, 247, 238);
 
   .hero-container {
+    @media (min-width: 1200px) {
+      .hero-img {
+        width: 100%;
+      }
+    }
     width: 100vw;
     height: 100vh;
     position: relative;
@@ -35,6 +40,9 @@
       text-align: center;
       position: absolute;
       h1 {
+        @media (min-width: 1200px) {
+          font-size: 6em;
+        }
         font-size: 3em;
       }
       button {
@@ -62,7 +70,7 @@
   .footer {
     font-size: 1.2em;
     font-weight: 600;
-    background-color: rgb(0, 31, 28);
+    background-color: rgb(2, 49, 44);
     color: rgb(238, 247, 238);
     padding: 0.5em;
     a,

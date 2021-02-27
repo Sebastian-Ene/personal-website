@@ -23,19 +23,21 @@ export default function Projects() {
 
   return (
     <>
-      <h2 className="projects-title"> Latest Projects </h2>
-      {projectList.map((project) => {
-        return (
-          <a href={project.link} target="_blank">
-            <div className="project">
-              <p className="empty-text">{project.title}</p>
-              <p className="filled-text">{project.title}</p>
-              <img className="animatedImage" src={project.image} alt=""></img>
-              <img src={project.image} alt=""></img>
-            </div>
-          </a>
-        );
-      })}
+      <div className="projects">
+        <h2 className="projects-title"> Latest Projects </h2>
+        {projectList.map((project) => {
+          return (
+            <a href={project.link} target="_blank">
+              <div className="project">
+                <p className="empty-text">{project.title}</p>
+                <p className="filled-text">{project.title}</p>
+                <img className="animatedImage" src={project.image} alt=""></img>
+                <img src={project.image} alt=""></img>
+              </div>
+            </a>
+          );
+        })}
+      </div>
     </>
   );
 }
