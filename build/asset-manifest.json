@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.020f9f9a.chunk.css",
+    "main.js": "/static/js/main.3d5a31fe.chunk.js",
+    "main.js.map": "/static/js/main.3d5a31fe.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.01539f98.js",
+    "runtime-main.js.map": "/static/js/runtime-main.01539f98.js.map",
+    "static/js/2.d926006e.chunk.js": "/static/js/2.d926006e.chunk.js",
+    "static/js/2.d926006e.chunk.js.map": "/static/js/2.d926006e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.020f9f9a.chunk.css.map": "/static/css/main.020f9f9a.chunk.css.map",
+    "static/js/2.d926006e.chunk.js.LICENSE.txt": "/static/js/2.d926006e.chunk.js.LICENSE.txt",
+    "static/media/Cpp.2441702d.svg": "/static/media/Cpp.2441702d.svg",
+    "static/media/Heropic.af338ff2.jpg": "/static/media/Heropic.af338ff2.jpg",
+    "static/media/Node_JS.f163cddf.svg": "/static/media/Node_JS.f163cddf.svg",
+    "static/media/Nya.ea8d9a3c.png": "/static/media/Nya.ea8d9a3c.png",
+    "static/media/Python.44a7fd6d.png": "/static/media/Python.44a7fd6d.png",
+    "static/media/ReactLogo.3adc4d15.svg": "/static/media/ReactLogo.3adc4d15.svg",
+    "static/media/Sass.540ec25f.svg": "/static/media/Sass.540ec25f.svg",
+    "static/media/WeatherNow.3e0746c6.png": "/static/media/WeatherNow.3e0746c6.png",
+    "static/media/aws.cc38dbe9.svg": "/static/media/aws.cc38dbe9.svg",
+    "static/media/javaScript.acc4642f.svg": "/static/media/javaScript.acc4642f.svg",
+    "static/media/mongodb.94082411.png": "/static/media/mongodb.94082411.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.01539f98.js",
+    "static/js/2.d926006e.chunk.js",
+    "static/css/main.020f9f9a.chunk.css",
+    "static/js/main.3d5a31fe.chunk.js"
+  ]
+}
