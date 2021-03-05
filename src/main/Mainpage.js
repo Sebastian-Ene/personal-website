@@ -3,10 +3,13 @@ import heropic from '../assets/Heropic.jpg';
 import Logos from './Logos';
 import Projects from './Projects';
 import './Mainpage1.scss';
+import { useSpring, animated } from 'react-spring';
 
 export default function Mainpage() {
+  const heroAnim = useSpring({ opacity: 1, from: { opacity: 0 } });
+
   return (
-    <>
+    <animated.div style={heroAnim}>
       <div className="big-div">
         <div className="hero-container">
           <div className="hero-content">
@@ -32,6 +35,6 @@ export default function Mainpage() {
           </div>
         </div>
       </div>
-    </>
+    </animated.div>
   );
 }
