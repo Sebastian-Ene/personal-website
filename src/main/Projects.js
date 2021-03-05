@@ -27,6 +27,7 @@ export default function Projects() {
         <h2 className="projects-title"> Latest Projects </h2>
         {projectList.map((project) => {
           return (
+            // eslint-disable-next-line react/jsx-no-target-blank
             <a href={project.link} target="_blank">
               <div className="project">
                 <p className="empty-text">{project.title}</p>

@@ -1,3 +1,4 @@
+/* eslint-disable array-callback-return */
 import React from 'react';
 import Node_JS from '../assets/Node_JS.svg';
 import angular from '../assets/angular.png';
